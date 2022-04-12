@@ -22,7 +22,7 @@ type NodeReconciler struct {
 	Log    logr.Logger
 }
 
-//+kubebuilder:rbac:groups=core,resources=nodes,verbs=get;watch;patch
+//+kubebuilder:rbac:groups=core,resources=nodes,verbs=get;list;watch;patch
 //+kubebuilder:rbac:groups=core,resources=nodes/status,verbs=get;update;patch
 //+kubebuilder:rbac:groups=core,resources=nodes/finalizers,verbs=update
 
