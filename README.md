@@ -6,7 +6,7 @@ Node Label Controller is a controller which watches the Kubernetes nodes and att
 
 ## Running controller locally
 
-Prerequisite: Your terminal must in context of a kubernetes cluster.
+Prerequisite: Your terminal must be in context of a kubernetes cluster.
 
 ```terminal
 go run main.go
