@@ -20,7 +20,7 @@ go run main.go
 docker build ./ -t node-label-controller:v1.0.0
 ```
 
-After building the image please upload the image to your image repository or you can use my image from dockerhub [abdulhaseeb2/node-label-controller:v0.0.1](https://hub.docker.com/repository/docker/abdulhaseeb2/node-label-controller/general)
+After building the image please upload the image to your image repository and update the [deployment](https://github.com/abdulhaseeb2/node-label-controller/blob/master/manifests/deployment.yaml#L25) or you can use my image from dockerhub [abdulhaseeb2/node-label-controller:v0.0.1](https://hub.docker.com/repository/docker/abdulhaseeb2/node-label-controller/general)
 
 ### Deploy to cluster
 
